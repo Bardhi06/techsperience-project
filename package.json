@@ -1,0 +1,22 @@
+{
+  "name": "techsperience-project",
+  "version": "1.0.0",
+  "description": "Prototype Project For Techsperience",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardhi06/techsperience-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardhi06/techsperience-project/issues"
+  },
+  "homepage": "https://github.com/Bardhi06/techsperience-project#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

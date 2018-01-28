@@ -1,69 +1,45 @@
 <% include partials/header %>
-      <div class="row">
-      <div class="col-md-12 tittle">
-        <h1>Techsperience</h1>
+  <div class="login-wrap">
+  <div class="login-html">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Techsperience</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+  <div class="login-form">
+    <div class="sign-in-htm">
+      <div class="group">
+        <label for="user" class="label">Title: </label>
+        <input id="user" type="text" class="input">
       </div>
+      <div class="group">
+        <label for="user" class="label">Physical Location: </label>
+        <input id="user" type="text" class="input">
       </div>
-      <div class="container">
-        <div class="card">
-          <form>
-            <div class="input-container">
-              <label for="Username">Title: </label>
-              <input class="title" type="text" id="Username" required="required"/>
-              <div class="bar"></div>
-            </div>
-            <div class="input-container">
-              <label for="Username">Physical Location: </label>
-              <input class="physical" type="text" id="Username" required="required"/>
-              <div class="bar"></div>
-            </div>
-            <div class="input-container">
-              <label for="Username">Company Name: </l abel>
-              <input class="companyname" type="text" id="Username" required="required"/>
-              <div class="bar"></div>
-            </div>
-            <div class="input-container">
-              <label for="Password">Document Number: </label>
-              <input class="companynr" type="text" id="Password" required="required"/>
-              <div class="bar"></div>
-            </div>
-            <label for="Password">Description: </label>
-            <textarea class="desx" name="comment" form="usrform">
-              Description...</textarea>
-            <div class="button-container">
-              <button><span>Upload</span></button>
-            </div>
-            <div class="footer"><a href="#">Clear!</a></div>
-          </form>
-          <br>
-          <br>
-          <table border="1">
-          <tr>
-            <th>nr.</th>
-            <th>Physical location</th>
-            <th>Company Name</th>
-            <th>Doc. Numb.</th>
-            <th>Description</th>
-            <th>File Name</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>ODK</td>
-            <td>312</td>
-            <td>312</td>
-            <td>312</td>
-            <td> <a href="#">techsperience.rar</a> </td>
-          </tr>
-
-          <tr>
-            <td><%= %></td>
-            <td><%= %></td>
-            <td><%= %></td>
-            <td><%= %></td>
-            <td><%= %></td>
-            <td> <a href="#"><%= %></a> </td>
-          </tr>
-          </table>
-
+      <div class="group">
+        <label for="user" class="label">Company Name: </label>
+        <input id="user" type="text" class="input">
+      </div>
+      <div class="group">
+        <label for="user" class="label">Document Number: </label>
+        <input id="user" type="text" class="input">
+      </div>
+      <div class="group">
+        <label for="pass" class="label">Description: </label>
+        <input id="pass" type="text" class="input" data-type="password">
+      </div>
+      <div class="group buton">
+        <form method="post" enctype="multipart/form-data" action="">
+          <span id="filename">Select your file</span>
+          <label class="uploadbutton" for="file-upload">Upload<input type="file" id="file-upload"></label>
+        </form>
+      </div>
+      <div class="group">
+        <input type="submit" class="button" value="Add">
+      </div>
+      <div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="#forgot">Clear!</a>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
 <% include partials/footer %>

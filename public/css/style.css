@@ -3,4 +3,38 @@ body{
 }
 h1{
   text-align: center;
+  color: #efefef;
+}
+.tittle{
+  margin: -22px;
+  background-color: #44bd32;
+}
+.title{
+  margin-left: 118px;
+}
+.physical{
+  margin-left: 13px;
+}
+.companyname{
+  margin-left: 26px;
+}
+.companynr{
+  margin-left: 20px;
+}
+.desx{
+  margin-left: 69px;
+}
+.card{
+  margin-top: 10%;
+  margin-left: 25%;
+  font-size: 20px;
+}
+.input-container{
+  margin: 5px;
+}
+.companynr{
+  margin: 3px;
+}
+.button-container{
+  margin-top: 5px;
 }
